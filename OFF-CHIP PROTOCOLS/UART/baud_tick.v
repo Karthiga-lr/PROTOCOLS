@@ -2,7 +2,7 @@ module baud_tick(
 	input clk,
 	input reset,
 	output reg baud_tick);
-  
+  //
 parameter FRE       = 50_000_000;
 parameter BAUD_RATE = 9600;
 parameter COUNT_MAX = FRE / BAUD_RATE;
